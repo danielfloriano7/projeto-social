@@ -48,6 +48,9 @@ section#telefone {
 
 section#redes-sociais {
     text-align: right;
+    display: flex;
+    flex-direction: column;
+
 }
 
 section#redes-sociais img {
@@ -55,7 +58,7 @@ section#redes-sociais img {
     margin: 10px;
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.411);
-    transition: transform 500ms ease-in-out;
+    
 }
 
 section#redes-sociais img:hover {
